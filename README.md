@@ -1,7 +1,7 @@
 # django-todo
 A simple todo app built with django
 ````
-Devployment of Docker container using Jenkins
+################################Devployment of Docker container using Jenkins###############################
 CodeCommit-->GitHub--->Jenkins---->DockerBuild--->DockerPushOnRepository--->Deployment of App into container
 
  
