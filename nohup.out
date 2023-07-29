@@ -1,0 +1,107 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+July 24, 2023 - 09:53:04
+Django version 4.2.3, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Invalid HTTP_HOST header: '13.232.50.200:8001'. You may need to add '13.232.50.200' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/django-todo/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/django-todo/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/django-todo/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/django-todo/env/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '13.232.50.200:8001'. You may need to add '13.232.50.200' to ALLOWED_HOSTS.
+Bad Request: /
+[24/Jul/2023 09:53:20] "GET / HTTP/1.1" 400 63809
+Invalid HTTP_HOST header: '13.232.50.200:8001'. You may need to add '13.232.50.200' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/django-todo/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/django-todo/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/django-todo/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/django-todo/env/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '13.232.50.200:8001'. You may need to add '13.232.50.200' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[24/Jul/2023 09:53:21] "GET /favicon.ico HTTP/1.1" 400 63644
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[24/Jul/2023 09:55:05] "GET / HTTP/1.1" 302 0
+[24/Jul/2023 09:55:05] "GET /todos HTTP/1.1" 301 0
+[24/Jul/2023 09:55:05] "GET /todos/ HTTP/1.1" 200 3515
+[24/Jul/2023 09:55:06] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[24/Jul/2023 09:55:06] "GET /favicon.ico HTTP/1.1" 404 2574
+[24/Jul/2023 09:55:11] "POST /todos/add/ HTTP/1.1" 302 0
+[24/Jul/2023 09:55:11] "GET /todos/ HTTP/1.1" 200 4096
+[24/Jul/2023 09:57:51] "GET /todos/ HTTP/1.1" 200 4096
+[24/Jul/2023 09:57:55] "GET /todos/ HTTP/1.1" 200 4096
+[24/Jul/2023 10:07:15] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x82\x8d6µW\x9b¯ÁH\x04\x8f\x05{¬\x1b\x81\x8bÜk«U\x10tJéof\x07\x16\x00')
+[24/Jul/2023 10:07:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[24/Jul/2023 10:08:27] "GET /todos/ HTTP/1.1" 200 4096
+[24/Jul/2023 10:08:27] "GET /static/css/style.css HTTP/1.1" 304 0
+[24/Jul/2023 10:08:31] "GET /todos/ HTTP/1.1" 200 4096
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[24/Jul/2023 10:17:30] "GET / HTTP/1.1" 302 0
+[24/Jul/2023 10:17:30] "GET /todos HTTP/1.1" 301 0
+[24/Jul/2023 10:17:30] "GET /todos/ HTTP/1.1" 200 4096
+[24/Jul/2023 10:17:30] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[24/Jul/2023 10:17:31] "GET /favicon.ico HTTP/1.1" 404 2574
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[24/Jul/2023 10:18:54] "GET /todos/ HTTP/1.1" 200 4096
+[24/Jul/2023 10:18:54] "GET /static/css/style.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[25/Jul/2023 12:50:47] "GET /todos/ HTTP/1.1" 200 4096
+[25/Jul/2023 12:50:48] "GET /static/css/style.css HTTP/1.1" 200 225
+[25/Jul/2023 12:50:50] "GET /todos/ HTTP/1.1" 200 4096
